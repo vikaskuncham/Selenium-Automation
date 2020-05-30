@@ -39,6 +39,7 @@ public class Launchchrome {
 		System.out.println(watch.getText());
         watch.click();
         driver.switchTo().window(parentwindowID);
+        Thread.sleep(5000);
         System.out.println("i moved again to parent window");
      
 		
